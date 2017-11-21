@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
+  moduleId: module.id,
   selector: 'sample-component',
-  template: `<h1>Sample component !!!</h1>`
+  templateUrl: './sample.component.html'
 })
 export class SampleComponent {
 
