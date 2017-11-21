@@ -1,0 +1,28 @@
+{
+  "name": "hike",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/creazure/hike.git"
+  },
+  "author": {
+    "name": "Anis Adjmi",
+    "email": "ajmiba@yahoo.fr"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creazure/hike.git/issues"
+  },
+  "main": "hike.umd.js",
+  "module": "hike.js",
+  "jsnext:main": "hike.js",
+  "typings": "hike.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}
